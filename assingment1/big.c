@@ -1,4 +1,4 @@
-/*Programme to find greatest among 3 numbers
+*Programme to find greatest among 3 numbers
 *created:chandrakant jena
 *file name:big.c
 *date:
