@@ -8,6 +8,7 @@ int main()
 	fgets(a,100,stdin);
 	for(i=0;a[i]!='\0';i++)
 		len++;
+	printf("The reverse of string:\n");
 	for(a[len-1]!='\0';len>=0;len--)
 		printf("%c",a[len-1]);
 
