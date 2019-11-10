@@ -1,4 +1,4 @@
-//programme to input a word and sort the character in ascending oder
+//programme to input a word and sort the character desending oder
 #include<stdio.h>
 #include<string.h>
 int main()
