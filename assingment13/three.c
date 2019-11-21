@@ -1,4 +1,5 @@
-//programm to find number of words  begins and end  with specific character
+//programm to find number of words whose length is greater than 3
+//To find no. Of words whose length is greater than 3
 #include<stdio.h>
 #include<string.h>
 int main()
