@@ -13,7 +13,7 @@ int main()
 	
 	printf("\nEnter the word want to search:");
 	scanf("%s",search);
-	fgetc(stdin);
+	fflush(stdin);
 
 	printf("\nEnter the replaced word:\n");
 	scanf("%s",replace);
@@ -31,15 +31,17 @@ int main()
 		
 		word[m]='\0';
 			if(str1[i]==' ')
-			{
+				{
 				if(strcmp(word,search)==0)
 					{
 						check=1;
+						fflush(stdin);
 						strcat(str2,replace);
                                         	strcat(str2," ");
 					}
 				else
 					{
+					fflush(stdin);
 					strcat(str2,word);
 					strcat(str2," ");
 					}
@@ -51,6 +53,7 @@ int main()
 			{
 				 if(strcmp(word,search)==0)
                                         {
+						check=1;
                                                 strcat(str2,replace);
 						strcat(str2," ");
                                         }
@@ -64,7 +67,7 @@ int main()
 			if(check!=1)
 				printf("\nNot present:");
 		else
-			fgetc(stdin);
+			fflush(stdout);
 			puts(str2);
 			
 return 0;
