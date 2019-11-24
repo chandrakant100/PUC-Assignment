@@ -19,7 +19,7 @@ int main()
 	for(i=4;i<num;i++)
 		strcpy(str[i],str[i+1]);	
 
-	printf("\nAfter insertion:\n");
+	printf("\nAfter deletion:\n");
 	for(i=0;i<num-1;i++)
 		{
 			printf("\nThe no. %d is:",i+1);
