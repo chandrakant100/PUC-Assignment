@@ -1,7 +1,7 @@
 /*
  *PROGRAM: To perform arithmetic operations using call by reference
  *FILE: operation.c
- *CREATED BY: Himanshu Sekhar Nayak
+ *CREATED BY: chandrakant jena
  *DATED: 22/11/2019
  */
 

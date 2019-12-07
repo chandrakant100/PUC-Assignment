@@ -1,7 +1,7 @@
 /*
  *PROGRAM: To calculate area & circumference of circle using call by reference
  *FILE: circle.c
- *CREATED BY: Himanshu Sekhar Nayak
+ *CREATED BY: chandrakant jena
  *DATED: 22/11/2019
  */
 
