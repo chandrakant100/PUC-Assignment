@@ -1,7 +1,7 @@
 /*
  *PROGRAM: To perform 10 operations using functions
  *FILE: multipleops.c
- *CREATED BY: Himanshu Sekhar Nayak
+ *CREATED BY: chandrakant jena
  *DATED: 11/11/2019
  */
 

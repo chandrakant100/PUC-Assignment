@@ -1,7 +1,7 @@
 /*
  *PROGRAM: To perform arithmetic operations using functions
  *FILE: arithmetic.c
- *CREATED BY: Himanshu Sekhar Nayak
+ *CREATED BY: chandra kant jena
  *DATED: 11/11/2019
  */
 
