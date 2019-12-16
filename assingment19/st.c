@@ -46,7 +46,7 @@ void sort2(emp *m,int num)
 {
 	  int i,j,temp;
         emp s;
-        printf("\n\tTo sort the records according to the emp-ID:\n");
+        printf("\n\tTo sort the records according to the emp-Name:\n");
 
         for(i=0;i<num-1;i++)
         for(j=0;j<num-1;j++)
@@ -229,6 +229,6 @@ int main()
 	delete2(s,num);
 	edit(s,num);
 	sort1(s,num);
-	//sort2(s,num);
+	sort2(s,num);
 	return 0;
 }
