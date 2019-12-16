@@ -23,6 +23,7 @@ void count(char *str)
 	for(k=0;k<m;k++)
 		if(*(word+k)==ch){
 			count++;
+			printf("The word is %s:\n",word);
 			break;
 		}
       j=i+1;
@@ -35,6 +36,7 @@ void count(char *str)
          for(k=0;k<m;k++)
 		 if(*(word+k)==ch){
 			 count++;
+			 printf("\nThe word is %s:\n",word);
 			 break;
 		 }
       goto end;
@@ -147,10 +149,10 @@ void concadinate(char *s)
 	printf("\nEnter the string:\n");
 	fgetc(stdin);
 	scanf("%[^\n]",ar);
-	strcat(ar," ");
-	strcat(ar,s);
+	strcat(s," ");
+	strcat(s,ar);
 	printf("\nAfter concadination:\n");
-	puts(ar);
+	puts(s);
 }
 int main()
 {
