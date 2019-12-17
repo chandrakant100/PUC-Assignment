@@ -83,7 +83,7 @@ void edit(emp *m,int num)
         emp ar[100];
         for(i=0;i<num;i++)
                 {
-			(ar+i)->b_sal=(m+i)->b_sal*0.15+(m+i)->b_sal;
+			//(ar+i)->b_sal=(m+i)->b_sal*0.15+(m+i)->b_sal;
                         (ar+i)->emp_id=(m+i)->emp_id;
                         strcpy((ar+i)->emp_name,(m+i)->emp_name);
                         strcpy((ar+i)->dept_name,(m+i)->dept_name);
