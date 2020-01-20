@@ -1,2 +1,10 @@
-run: hello.c
-	gcc -o run  hello.c -I.
+all: run
+
+hello.o: hello.c
+	@echo "Creating object.."
+	gcc -c hello.c
+
+run: hello.o
+	./hello
+
+.PHONY: all run
