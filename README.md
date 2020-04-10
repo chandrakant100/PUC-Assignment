@@ -1,4 +1,3 @@
-<html>
   
 #PUC-ASSINGMENT
 <img src="http://edlibre.com/wp-content/uploads/CProgrammingandDataStructures_1438585513.jpg"height="200"width="500">  
