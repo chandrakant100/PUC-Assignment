@@ -1,5 +1,5 @@
 
-<h6># PUC-Assignment</h6>
+<h1># PUC-Assignment</h1>
 
 C-Assignments for IMCA 2019-2024
 PLEASE TRY TO SOLVE YOURSELF BEFORE VIEWING
